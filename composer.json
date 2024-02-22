@@ -1,0 +1,17 @@
+{
+    "name": "labibrahman/products-processor",
+    "require": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Labibrahman\\ProductsProcessor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Labib Rahman",
+            "email": "labib.rahman@northsouth.edu"
+        }
+    ]
+}

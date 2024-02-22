@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Labibrahman\\Src\\ProductTest::testClassConstructor":8},"times":{"Labibrahman\\Src\\ProductTest::testClassConstructor":0.008,"Labibrahman\\ProductsProcessor\\ProductTest::testClassConstructor":0.001,"Labibrahman\\ProductsProcessor\\FileParserFactoryTest::testClassConstructor":0.008}}
