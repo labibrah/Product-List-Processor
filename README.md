@@ -25,21 +25,21 @@ Output file from parsing 'products_comma_separated.csv' is given as 'combination
 
 Upon running the command above, the detail of each product will be printed and a file will be generated containing unique combinations. Example:
 ```bash
-object(Product)#4 (7) {
-  ["make":"Product":private]=>
+object(Labibrahman\ProductsProcessor\Product)#4 (7) {
+  ["make":"Labibrahman\ProductsProcessor\Product":private]=>
   string(7) "Samsung"
-  ["model":"Product":private]=>
+  ["model":"Labibrahman\ProductsProcessor\Product":private]=>
   string(10) "EP-TA20EWE"
-  ["colour":"Product":private]=>
-  string(9) "Brand New"
-  ["capacity":"Product":private]=>
-  string(9) "Brand New"
-  ["network":"Product":private]=>
-  string(14) "Not Applicable"
-  ["grade":"Product":private]=>
+  ["colour":"Labibrahman\ProductsProcessor\Product":private]=>
   string(5) "White"
-  ["condition":"Product":private]=>
+  ["capacity":"Labibrahman\ProductsProcessor\Product":private]=>
   string(14) "Not Applicable"
+  ["network":"Labibrahman\ProductsProcessor\Product":private]=>
+  string(14) "Not Applicable"
+  ["grade":"Labibrahman\ProductsProcessor\Product":private]=>
+  string(9) "Brand New"
+  ["condition":"Labibrahman\ProductsProcessor\Product":private]=>
+  string(9) "Brand New"
 }
 ```
 If required fields ('make' or 'model') are missing, exception will be thrown. Example:
